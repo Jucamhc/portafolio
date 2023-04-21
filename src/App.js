@@ -17,6 +17,8 @@ function App() {
 
   return (
     <>
+      <style>
+      </style>
       <Header />
         <main>
           <Hero />
