@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/portafolio/static/css/main.794f31de.css",
+    "main.js": "/portafolio/static/js/main.962f2f53.js",
+    "static/media/remixicon.svg?t=1680339538483": "/portafolio/static/media/remixicon.8ed17be9a84821a5c229.svg",
+    "static/media/remixicon.eot?t=1680339538483": "/portafolio/static/media/remixicon.12918279f6bf4d026004.eot",
+    "static/media/remixicon.ttf?t=1680339538483": "/portafolio/static/media/remixicon.1cb5749eb3139d87d99f.ttf",
+    "static/media/JCH.png": "/portafolio/static/media/JCH.80c10e13f186691ee88f.png",
+    "static/media/portfolio-06.jpg": "/portafolio/static/media/portfolio-06.ea07d96454b4d7036952.jpg",
+    "static/media/portfolio-03.jpg": "/portafolio/static/media/portfolio-03.78e7f47277db062e42ce.jpg",
+    "static/media/portfolio-05.jpg": "/portafolio/static/media/portfolio-05.48fc29908a42185ebcac.jpg",
+    "static/media/portfolio-04.jpg": "/portafolio/static/media/portfolio-04.b181b68b278c583999d7.jpg",
+    "static/media/portfolio-02.jpg": "/portafolio/static/media/portfolio-02.18f98e2c71da9c1289b0.jpg",
+    "static/media/portfolio-01.jpg": "/portafolio/static/media/portfolio-01.89a346463c90b2965a9e.jpg",
+    "static/media/portfolio-07.jpg": "/portafolio/static/media/portfolio-07.7e51d9d8fbe739866e5c.jpg",
+    "static/media/remixicon.woff?t=1680339538483": "/portafolio/static/media/remixicon.e7f01573e4cc092f2f9b.woff",
+    "static/media/remixicon.woff2?t=1680339538483": "/portafolio/static/media/remixicon.9351de0b3af8bf7095ea.woff2",
+    "static/media/movistar.png": "/portafolio/static/media/movistar.0ef4203912de4e62a047.png",
+    "static/media/seam.png": "/portafolio/static/media/seam.0c2bf3c1e4e87f7e6915.png",
+    "static/media/ciscopng.png": "/portafolio/static/media/ciscopng.46c1ad8b913a19e42306.png",
+    "static/media/poli.png": "/portafolio/static/media/poli.7b5eb303174b39e6ee1c.png",
+    "static/media/sena.png": "/portafolio/static/media/sena.09ae8441f58a08067ed5.png",
+    "static/media/klaxen.png": "/portafolio/static/media/klaxen.95be48e674f03ff97ae1.png",
+    "index.html": "/portafolio/index.html",
+    "main.794f31de.css.map": "/portafolio/static/css/main.794f31de.css.map",
+    "main.962f2f53.js.map": "/portafolio/static/js/main.962f2f53.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.794f31de.css",
+    "static/js/main.962f2f53.js"
+  ]
+}
