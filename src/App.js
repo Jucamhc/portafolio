@@ -23,7 +23,7 @@ function App() {
         <main>
           <Hero />
           <Experiencia />
-          <Portafolio />
+          {/* <Portafolio /> */}
         </main>
       <Footer />
     </>

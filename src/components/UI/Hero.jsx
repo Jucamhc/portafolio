@@ -1,105 +1,104 @@
-import React from 'react'
-import ImgFirt from '../../assets/data/images/JCH.png'
-import CountUp from 'react-countup';
-//import countUp from 'react-countup'
+import React from 'react';
+import ImgFirt from '../../assets/data/images/JCH.png';
 
 export const Hero = () => {
     return (
         <section id='about'>
-            <div className='container pt-10'>
-                <div className='md:flex  justify-between sm:flex-col md:flex-row'>
+            <div className='container pt-5'>
+                <div className='md:flex justify-between sm:flex-col md:flex-row'>
                     {/* ====================== hero left content ==================== */}
-                    <div className='w-full md:basis-1/2'>
-                        <h4
-                            data-aos="fade-right"
-                            data-aos-duration='1500'
-                            className='text-headingColor font-[600] text-[16px]'>
+                    <div className='w-full md:w-1/2'>
+                        <h4 data-aos='fade-right' data-aos-duration='1500' className='text-headingColor font-mono font-semibold text-sm md:text-base'>
                             ! Hello Welcome, Hola Bienvenido ¡
                         </h4>
 
-                        <h1
-                            data-aos="fade-up" data-aos-duration="1500"
-                            className='text-headingColor font-[800] 
-                            text-[1.8rem] sm:text-[40px] leading-[35px]
-                             sm:leading-[46px] mt-5 '>
-                            Descubre mis proyectos y <br />
-                            habilidades en desarrollo web!
-                            <i class="fas fa-laptop-code"></i>
+                        <h1 data-aos='fade-up' data-aos-duration='1500' className='text-headingColor font-extrabold text-2xl sm:text4xl md:text-3xl leading-tight sm:leading-snug mt-5'>
+                            Descubre mis proyectos y habilidades en desarrollo web!
+                            <i className='fas fa-laptop-code'></i>
                         </h1>
 
-                        <p data-aos="fade-right"
-                            data-aos-duration='1500'
-                            className='flex gap-3 mt-10 text-headingColor font-[600] text-[16px] leading-6 
-                            sm:pl-6 sm:pr-10'>
+                        <p data-aos='fade-right' data-aos-duration='1500' className='mt-10 text-headingColor font-medium text-sm sm:text-base leading-6 sm:pl-6 sm:pr-10' >
                             ¡Hola! Soy un ingeniero de software en formación y desarrollador Full Stack.
                             He trabajado en varios proyectos y empleos, si te interesa saber más, sigue
                             explorando mi perfil. ¡Gracias por visitar!
                         </p>
 
-                        <div className='flex justify-center mt-10'>
-                            <div
-                             data-aos="zoom-in-right"
-                             data-aos-duration='1500'
-                            className='basis-1/2 mt-2'>
+                        <div className='flex justify-between mt-10'>
+                            <div data-aos='zoom-in-right' data-aos-duration='1500' className='w-1/2 sm:w-auto mt-2' >
                                 <span>
-                                    <a href="https://www.linkedin.com/in/juan-camilo-hoyos-casta%C3%B1o/" target="_blank" className='text-5xl text-blue-700 cursor-pointer '>
-                                        <i class="ri-linkedin-box-fill"></i>
+                                    <a href='https://www.linkedin.com/in/juan-camilo-hoyos-casta%C3%B1o/' target='_blank' rel="noreferrer" className='text-5xl text-blue-700 cursor-pointer'>
+                                        <i className='ri-linkedin-box-fill'></i>
                                     </a>
                                 </span>
                                 <span>
-                                    <a href="https://github.com/Kamilo2251" target="_blank" className='text-5xl cursor-pointer '>
-                                        <i class="ri-github-fill"></i>
+                                    <a href='https://github.com/Jucamhc' target='_blank' rel="noreferrer" className='text-5xl cursor-pointer'>
+                                        <i className='ri-github-fill'></i>
                                     </a>
                                 </span>
                             </div>
-                            <div 
-                             data-aos="fade-down-right"
-                             data-aos-duration='1500'
-                            className=' basis-2/2 leading-8 flex-none '>
+                            <div
+                                data-aos="fade-down-right"
+                                data-aos-duration='1500'
+                                className=' basis-2/2 leading-8 flex-none '>
                                 <h2 className='text-[40px] text-smallTextColor font-[600] text-start'>Juan Camilo Hoyos C.</h2>
-                                <p className='text-smallTextColor text-[30px] font-[400] text-right'>Developer Full Stack 💻🚀</p>
+                                <p className='text-smallTextColor text-[25px] font-[400] text-right font-mono'>Developer Full Stack 💻🚀</p>
                             </div>
                         </div>
 
 
-                        {/*                         <div className='flex items-start gap-1 mt-4'>
-                              <span className='text-smallTextColor text-[15px] font-[600] '>Sigueme en :</span> 
-                            <span>
-                                <a href="#link" className='text-4xl text-blue-700 cursor-pointer '>
-                                    <i class="ri-linkedin-box-fill"></i>
-                                </a>
-                            </span>
-                            <span>
-                                <a href="#link" className='text-4xl cursor-pointer '>
-                                    <i class="ri-github-fill"></i>
-                                </a>
-                            </span>
-                        </div> */}
                     </div>
                     {/* ====================== hero left end ==================== */}
 
                     {/* ====================== hero right img ==================== */}
 
                     <div className=' basis-2/2 mt-0 sm:ml-10'>
-                        <figure 
-                        data-aos="fade-left"
-                        data-aos-duration='1500'
-                        className='flex items-center justify-center '>
+                        <figure
+                            data-aos="fade-left"
+                            data-aos-duration='1500'
+                            className='flex items-center justify-center '>
                             <img src={ImgFirt} alt="" />
                         </figure>
                     </div>
 
                     {/* ====================== hero right img end ==================== */}
 
-                    {/* 
-                    <div className=' md:basis-10 flex justify-between text-center mt-10 flex-wrap gap-1 md:mt-0 md:flex-col md:justify-end md:text-end'>
-                        <div className='mb-10'>
-                            <h2 className='text-headingColor font-[700] text-[30px]'> <CountUp start={0} end={6} duration={2} suffix="+" /></h2>
-                            <h4 className='text-headingColor font-[600] text-[18px]'> Años de experiiencia </h4>
-                        </div> 
-                    </div> */}
-
                 </div>
+                <div className="flex flex-wrap items-center gap-2 mt-5 md:w-[1100px] justify-c mb-0">
+                    {/* <h4 className="text-gray-800 text-base font-bold mr-2">Tecnologias:</h4> */}
+                    <span  className="hover:text-white hover:bg-[#f16428] py-1 px-2 rounded-lg text-sm font-mono leading-4">
+                        Laravel
+                    </span>
+                    <span   className="hover:text-white hover:bg-[#8892b0]  py-1 px-2 rounded-lg text-sm font-mono leading-4">
+                        PHP
+                    </span>
+                    <span className="hover:text-gray-900 hover:bg-[#f0db4f]  py-1 px-2 rounded-lg text-sm font-mono leading-4">
+                        Javascript
+                    </span>
+                    <span className="hover:text-white hover:bg-[#2e7d32]  py-1 px-2 rounded-lg text-sm font-mono leading-4">
+                        Node.js
+                    </span>
+                    <span  className="hover:text-white hover:bg-[#424242]  py-1 px-2 rounded-lg text-sm font-mono leading-4">
+                        Express.js
+                    </span>
+                    <span  className="hover:text-white hover:bg-[#039be5]  py-1 px-2 rounded-lg text-sm font-mono leading-4">
+                        React
+                    </span>
+                    <span  className="hover:text-white hover:bg-[#06b6d4]  py-1 px-2 rounded-lg text-sm font-mono leading-4">
+                        Tailwind CSS
+                    </span>
+                    <span  className="hover:text-white hover:bg-[#673ab7]  py-1 px-2 rounded-lg text-sm font-mono leading-4">
+                        Bootstrap
+                    </span>
+                    <span className="hover:text-gray-900 hover:bg-[#f8e9a1] py-1 px-2 rounded-lg text-sm font-mono leading-4">
+                        HTML & CSS
+                    </span>
+                    <span className="hover:text-white hover:bg-[#a1887f]  py-1 px-2 rounded-lg text-sm font-mono leading-4">
+                        SQL & NoSQL
+                    </span>
+                    
+                </div>
+
+
             </div>
         </section>
     )
