@@ -1,6 +1,9 @@
-# Getting Started with Create React App
+# Portafolio Web
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Mi portafolio web es una muestra de mis habilidades y experiencia en el mundo del desarrollo. Como aspirante a desarrollador, sé que tener un sitio web donde pueda exponer mis habilidades y proyectos es esencial para medir mi alcance y crecimiento profesional. En mi portafolio, encontrarás información sobre mi formación académica y experiencia laboral, así como una sección de proyectos donde muestro las soluciones que he creado. Además, también hay una sección dedicada a mi persona para que puedas conocerme mejor. ¡Gracias por visitar mi sitio web y espero que encuentres mi trabajo inspirador!
+
+![image](https://user-images.githubusercontent.com/54044345/234734708-ae44b77e-45c4-48c4-acc8-62026edea0b9.png)
+
 
 ## Available Scripts
 
