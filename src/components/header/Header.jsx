@@ -50,7 +50,7 @@ export const Header = () => {
                     <div className="flex items-center gap-4">
                         <button className="flex items-center gap-2  text-smallTextColorJC  font-[600] border border-solid border-smallTextColor py-2 px-4 rounded-[8px] max-h-[40px] hover:bg-smallTextColorJC hover:text-white hover:font-[500] ease-in duration-300">
                             <a href='https://calendly.com/jucamhc/30min' target='_blank' rel="noreferrer" >
-                                <i className="ri-send-plane-line"></i> Hablemos
+                                <i className="ri-send-plane-line"></i>Hablemos
                             </a>
                         </button>
 
