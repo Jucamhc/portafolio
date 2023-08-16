@@ -38,30 +38,30 @@ export const Portafolio = () => {
 
 
     return (
-        <section id='portafolio'>
+        <section id='portafolio' className='mt-16' >
             <div className='container' >
-                <div className='flex items-center justify-between flex-wrap '>
+                <div className='flex items-center justify-between flex-wrap mt-10'>
                     <div className='mb-7 sm:mb-0'>
-                        <h3 className='text-smallTextColor text-[1.8rem] font-[800]'>
+                        <h3 className='text-black font-[800] text-[1.8rem] mb-1'>
                             PROYECTOS
                         </h3>
                     </div>
                     <div className='flex gap-3 font-mono'>
-                        <button onClick={() => setSelectTab('Todos')} className='text-smallTextColor border border-solid border-smallTextColor py-2 px-4 rounded-[8px]'>
+                        <button onClick={() => setSelectTab('Todos')} className='text-smallTextColor font-bold hover:bg-orange-300 text-[0.8rem] border border-solid border-black py-2 px-4 rounded-[8px]'>
                             Todos
                         </button>
-                        <button onClick={() => setSelectTab('Diseño-Web')} className='text-smallTextColor border border-solid border-smallTextColor py-2 px-4 rounded-[8px]'>
+                        <button onClick={() => setSelectTab('Diseño-Web')} className='text-smallTextColor hover:bg-orange-300 font-bold text-[0.8rem] border border-solid border-smallTextColor py-2 px-4 rounded-[8px]'>
                             Diseño-Web                        </button>
-                        <button onClick={() => setSelectTab('Backend')} className='text-smallTextColor border border-solid border-smallTextColor py-2 px-4 rounded-[8px]'>
+                        <button onClick={() => setSelectTab('Backend')} className='text-smallTextColor hover:bg-orange-300 font-bold text-[0.8rem] border border-solid border-smallTextColor py-2 px-4 rounded-[8px]'>
                             Backend
                         </button>
-                        <button onClick={() => setSelectTab('Site-Proyect')} className='text-smallTextColor border border-solid border-smallTextColor py-2 px-4 rounded-[8px]'>
+                        <button onClick={() => setSelectTab('Site-Proyect')} className='text-smallTextColor hover:bg-orange-300 font-bold text-[0.8rem] border border-solid border-smallTextColor py-2 px-4 rounded-[8px]'>
                             Site Proyect
                         </button>
                     </div>
                 </div>
 
-                <div className='flex items-center gap-4 flex-wrap mt-12'>
+                <div className='flex items-center gap-4 flex-wrap mt-4'>
 
                     {infoPorfolio.slice(0, nextIems)?.map((portfolio, index) => (
                         <div
@@ -71,7 +71,7 @@ export const Portafolio = () => {
                             data-aos-duration="1000"
                             className='group max-w-full sm:w-[48.5%] md:w-[31.8%] lg:w-[32%] relative z-[1]'>
                             <figure>
-                                <img className='rounded-[8px]' src={portfolio.imgUrl} alt="" />
+                                <img className='rounded-[8px]' src={portfolio.imgUrl} alt={portfolio.description} />
                             </figure>
 
                             <div className='w-full h-full bg-smallTextColorJC bg-opacity-40 absolute top-0 left-0 z-[5] hidden group-hover:block'>

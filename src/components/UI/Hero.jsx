@@ -17,7 +17,7 @@ export const Hero = () => {
                             <i className='fas fa-laptop-code'></i>
                         </h1>
                         <p data-aos='fade-right' data-aos-duration='1500' className='mt-10 text-headingColor font-medium text-sm sm:text-base leading-6 sm:pl-6 sm:pr-10' >
-                            ¡Hola! Soy un ingeniero de software en formación y desarrollador Full Stack.
+                            ¡Hola! Soy un Desarrollador Full Stack y Ingeniero de software en formación.
                             He trabajado en varios proyectos y empleos, si te interesa saber más, sigue
                             explorando mi perfil. ¡Gracias por visitar!
                         </p>

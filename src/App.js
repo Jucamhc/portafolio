@@ -10,22 +10,25 @@ import Portafolio from "./components/UI/Portafolio";
 
 
 function App() {
+
   useEffect(() => {
+    //Animation 
     Aos.init();
   }, []);
 
 
   return (
     <>
-      <style>
-      </style>
+      {/* <style>
+      </style> */}
       <Header />
-        <main>
-          <Hero />
-          <Experiencia />
-          {/* <Portafolio /> */}
-        </main>
+      <main>
+        <Hero />
+        <Experiencia />
+        <Portafolio />
+      </main>
       <Footer />
+
     </>
   );
 }

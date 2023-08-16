@@ -4,7 +4,7 @@ export const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <header className="w-full h-[80px] leading-[70px] flex items-center">
+        <header className="w-full h-[80px] leading-[70px] flex items-center ">
             <div className="container">
                 <div className="flex items-center justify-between">
                     {/* ================= logo ================*/}

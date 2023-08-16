@@ -18,7 +18,7 @@ const Modal = ({ activeID, setShowModal }) => {
           {/*                   <a href="https://www.linkedin.com/in/juan-camilo-hoyos-casta%C3%B1o/" target="_blank">
                                 <i className="ri-linkedin-box-fill text-blue-700 cursor-pointer"></i>
                             </a> */}
-                            <a href="https://github.com/Kamilo2251" target="_blank">
+                            <a href={portfolio.siteUrl} target="_blank">
                                 <i className="ri-github-fill cursor-pointer"></i>
                             </a>
                         </div>

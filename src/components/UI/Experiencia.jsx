@@ -13,8 +13,8 @@ import cisco from '../../assets/data/images/ciscopng.png'
 
 export const Experiencia = () => {
     return (
-        <section  >
-            <div className='lg:max-w-[1000px] justify-center lg:mx-auto'>
+        <section >
+            <div className='lg:max-w-[1000px] justify-center lg:mx-auto mt-24'>
 
                 <h2 id='services' className='text-center font-[800] text-[2.4rem] mt-10'>
                     <p  data-aos="fade-down" data-aos-duration='1500'>
